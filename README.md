@@ -13,4 +13,4 @@ The test files and user data are stored within folders located on the Desktop. B
     /home/pi/Desktop/Test Progs - All Test Sequences Generated.
 	
 
-Resource Files Last Updated: 25/09/2016
+Resource Files Last Updated: 11/10/2016
