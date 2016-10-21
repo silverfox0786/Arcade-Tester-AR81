@@ -1,0 +1,3 @@
+[6E.2], (2716)  Failed!   Address line fault                       [Measured:0.0% , HIGH:100.0% , LOW:85.0% ]
+[6E.4], (2716)  Failed!   Address line fault                       [Measured:0.0% , HIGH:100.0% , LOW:85.0% ]
+[5D.4], (74LS08)  Failed!   Check A6                                 [Measured:0.0% , HIGH:85.8% , LOW:63.4% ]

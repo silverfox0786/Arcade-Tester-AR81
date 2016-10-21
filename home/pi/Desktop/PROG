@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=TEST
+Comment=AR81 Test Program
+Icon=/home/pi/Downloads/testicon.gif
+Exec=/home/pi/Test/Test
+Terminal=false
+Categories=GTK;Development;IDE;
