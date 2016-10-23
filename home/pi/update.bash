@@ -1,8 +1,11 @@
 #!/bin/bash
 #AR81 Tester Update Program, Written by Silverfox0786
-#V1.0
+#V1.1
 
 echo "Welcome to the AR81 Test Program Software Updater"
+echo "During update you will be prompted many times"
+echo "This is to protect your data from accidental overwrite"
+echo "Pressing ENTER without a command will assume a NO Command"
     read -p "Do you wish to update your tester?" yn
     case $yn in
         [Yy]* ) if [ ! -f  /tmp/master.tar.gz ]
@@ -26,8 +29,9 @@ echo "Welcome to the AR81 Test Program Software Updater"
         * ) echo "Your Answer was assumed NO"
 			sleep 2;;
     esac
+read -n1 -r -p "Press space to continue..." key
+if [ "$key" = '' ]; then
 clear
-sleep 2
     read -p "Do you wish to update your Devices Library?" yn
     case $yn in
         [Yy]* ) if [ ! -d  /home/pi/Desktop/Devices/ ]
@@ -52,8 +56,10 @@ sleep 2
         * ) echo "Your Answer was assumed NO, Devices not updated"
 			sleep 2;;
     esac
+fi
+read -n1 -r -p "Press space to continue..." key
+if [ "$key" = '' ]; then
 clear
-sleep 2
 	read -p "Do you wish to update your ROMS Library?" yn
     case $yn in
         [Yy]* ) if [ ! -d  /home/pi/Desktop/ROMS/ ]
@@ -78,8 +84,10 @@ sleep 2
         * ) echo "Your Answer was assumed NO, ROMS not updated"
 			sleep 2;;
     esac
+fi
+read -n1 -r -p "Press space to continue..." key
+if [ "$key" = '' ]; then
 clear
-sleep 2
 	read -p "Do you wish to update your Test Progs Library?" yn
     case $yn in
         [Yy]* ) if [ ! -d  /home/pi/Desktop/"Test Progs"/ ]
@@ -104,8 +112,9 @@ sleep 2
         * ) echo "Your Answer was assumed NO Test Progs not updated"
 			sleep 2;;
     esac
-clear
-sleep 2
+fi
+read -n1 -r -p "Press space to continue..." key
+if [ "$key" = '' ]; then
     read -p "Do you wish to update your test Software?" yn
     case $yn in
         [Yy]* ) echo "Uninstalling old Test Software, If Installed"
@@ -157,7 +166,11 @@ sleep 2
 			echo "Updater Finished"
 			sleep 2;;
     esac
+fi
 clear
+cp /tmp/Arcade-Tester-AR81-master/home/pi/Downloads/update.png /home/pi/Downloads/update.png
+cp /tmp/Arcade-Tester-AR81-master/home/pi/Desktop/UPDATE /home/pi/Desktop/UPDATE
+cp /tmp/Arcade-Tester-AR81-master/home/pi/update.bash /home/pi/update.bash
 echo "All done"
 echo "Install fully complete"
 sleep 5
