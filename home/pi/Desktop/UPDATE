@@ -4,6 +4,6 @@ Encoding=UTF-8
 Name=UPDATE
 Comment=AR81 Software Update Program
 Icon=/home/pi/Downloads/update.png
-Exec=/home/pi/update.bash
+Exec=/home/pi/update/update.bash
 Terminal=true
 Categories=GTK;Development;IDE;
