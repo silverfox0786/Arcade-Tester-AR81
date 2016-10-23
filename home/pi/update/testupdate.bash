@@ -1,6 +1,6 @@
 #!/bin/bash
 #AR81 Tester Update Program, Written by Silverfox0786
-#V1.1
+#Version 1.3, 23/10/2016
 
 echo "Welcome to the AR81 Test Program Software Updater"
 echo "During update you will be prompted many times"
@@ -25,9 +25,12 @@ echo "Pressing ENTER without a command will assume a NO Command"
 				echo "Extraction Complete"
 				sleep 2
 				fi;;
-        [Nn]* ) exit;;
-        * ) echo "Your Answer was assumed NO"
-			sleep 2;;
+        [Nn]* ) echo "Not Updating anything, Exiting"
+				sleep 2
+				exit;;
+        * ) echo "Your Answer was assumed NO, Exiting"
+			sleep 2
+			exit;;
     esac
 read -n1 -r -p "Press space to continue..." key
 if [ "$key" = '' ]; then
@@ -109,12 +112,34 @@ clear
 				fi;;
         [Nn]* ) echo "Test Progs Not Updated, Moving On"
 				sleep 2;;
-        * ) echo "Your Answer was assumed NO Test Progs not updated"
+        * ) echo "Your Answer was assumed NO, Test Progs not updated"
 			sleep 2;;
     esac
 fi
 read -n1 -r -p "Press space to continue..." key
 if [ "$key" = '' ]; then
+clear
+	read -p "Do you want to add a Images Folder for Screenshots?" yn
+    case $yn in
+        [Yy]* ) if [ ! -d  /home/pi/Desktop/Images/ ]
+				then
+				echo "No Images Folder Found, Creating"
+				sleep 2
+				mkdir /home/pi/Desktop/Images
+				sleep 2
+				else
+				echo "Doh! Images Folder already Present"
+				sleep 2
+				fi;;
+        [Nn]* ) echo "Images Folder not Created, Moving On"
+				sleep 2;;
+        * ) echo "Your Answer was assumed NO, Images Folder not Created"
+			sleep 2;;
+    esac
+fi
+read -n1 -r -p "Press space to continue..." key
+if [ "$key" = '' ]; then
+clear
     read -p "Do you wish to update your test Software?" yn
     case $yn in
         [Yy]* ) echo "Uninstalling old Test Software, If Installed"
@@ -161,16 +186,15 @@ if [ "$key" = '' ]; then
 				fi;;
         [Nn]* ) echo "Test Software Not Updated"
 				echo "Updater Finished"
-				sleep 2;;
+				sleep 2
+				exit;;
         * ) echo "Your Answer was assumed NO Test Software not updated"
 			echo "Updater Finished"
-			sleep 2;;
+			sleep 2
+			exit;;
     esac
 fi
 clear
-cp /tmp/Arcade-Tester-AR81-master/home/pi/Downloads/update.png /home/pi/Downloads/update.png
-cp /tmp/Arcade-Tester-AR81-master/home/pi/Desktop/UPDATE /home/pi/Desktop/UPDATE
-cp /tmp/Arcade-Tester-AR81-master/home/pi/update.bash /home/pi/update.bash
 echo "All done"
 echo "Install fully complete"
 sleep 5
