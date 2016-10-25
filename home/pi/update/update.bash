@@ -12,10 +12,10 @@ fi
 cp /tmp/Arcade-Tester-AR81-master/home/pi/Downloads/update.png /home/pi/Downloads/update.png
 cp /tmp/Arcade-Tester-AR81-master/home/pi/Desktop/UPDATE /home/pi/Desktop/UPDATE
 cp /tmp/Arcade-Tester-AR81-master/home/pi/update/testupdate.bash /home/pi/update/testupdate.bash
-cp /tmp/Arcade-Tester-AR81-master/home/pi/Downloads/update.png /home/pi/Downloads/git.png
-cp /tmp/Arcade-Tester-AR81-master/home/pi/Desktop/UPDATE /home/pi/Desktop/GIT
-cp /tmp/Arcade-Tester-AR81-master/home/pi/Downloads/update.png /home/pi/Downloads/manual.png
-cp /tmp/Arcade-Tester-AR81-master/home/pi/Desktop/UPDATE /home/pi/Desktop/MANUAL
+cp /tmp/Arcade-Tester-AR81-master/home/pi/Downloads/git.png /home/pi/Downloads/git.png
+cp /tmp/Arcade-Tester-AR81-master/home/pi/Desktop/GIT /home/pi/Desktop/GIT
+cp /tmp/Arcade-Tester-AR81-master/home/pi/Downloads/manual.png /home/pi/Downloads/manual.png
+cp /tmp/Arcade-Tester-AR81-master/home/pi/Desktop/MANUAL /home/pi/Desktop/MANUAL
 lxterminal -e /home/pi/update/testupdate.bash
 cp /tmp/Arcade-Tester-AR81-master/home/pi/update/update.bash /home/pi/update/update.bash
 exit 0
