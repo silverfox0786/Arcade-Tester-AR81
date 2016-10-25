@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Link
+Encoding=UTF-8
+Name=GIT
+Comment=AR81 GitHub URL
+Icon=/home/pi/Downloads/git.png
+URL=https://github.com/silverfox0786/Arcade-Tester-AR81
+Categories=GTK;Development;IDE;

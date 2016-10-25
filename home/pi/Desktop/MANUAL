@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Link
+Encoding=UTF-8
+Name=MANUAL
+Comment=AR81 Manual URL
+Icon=/home/pi/Downloads/git.png
+URL=http://www.arcadetester.co.uk/index.php/Main_Page
+Categories=GTK;Development;IDE;
