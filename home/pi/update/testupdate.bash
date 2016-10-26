@@ -1,13 +1,13 @@
 #!/bin/bash
 #AR81 Tester Update Program, Written by Silverfox0786
-#Version 1.4, 25/10/2016/10/2016
+#Version 1.5, 26/10/2016
 
-echo "Version 1.4 25/10/2016"
+echo "Version 1.5 26/10/2016"
 echo "Welcome to the AR81 Test Program Software Updater"
 echo "During update you will be prompted many times"
 echo "This is to protect your data from accidental overwrite"
 echo "Pressing ENTER without a command will assume a NO Command"
-    read -p "Do you wish to update your tester?" yn
+read -p "Do you wish to update your tester?" yn
     case $yn in
         [Yy]* ) if [ ! -f  /tmp/master.tar.gz ]
 				then
@@ -186,17 +186,25 @@ clear
 				sleep 2
 				fi;;
         [Nn]* ) echo "Test Software Not Updated"
+				sleep 2;;
+        * ) echo "Your Answer was assumed NO Test Software not updated"
+			sleep 2;;
+    esac
+fi
+read -n1 -r -p "Press space to continue..." key
+if [ "$key" = '' ]; then
+clear
+    read -p "Do you wish to Restart the Tester?" yn
+    case $yn in
+        [Yy]* ) sudo shutdown -r now;;
+        [Nn]* ) echo "Rememeber to Restart your Tester manually for changes to take effect"
 				echo "Updater Finished"
 				sleep 2
 				exit;;
-        * ) echo "Your Answer was assumed NO Test Software not updated"
+        * ) echo "Your Answer was assumed NO, Retart Cancelled"
+			echo "Rememeber to Restart your Tester manually for changes to take effect"
 			echo "Updater Finished"
 			sleep 2
 			exit;;
     esac
 fi
-clear
-echo "All done"
-echo "Install fully complete"
-sleep 5
-exit 0
