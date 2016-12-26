@@ -1,8 +1,8 @@
 #!/bin/bash
 #AR81 Tester Update Program, Written by Silverfox0786
-#Version 1.5, 26/10/2016
+#Version 1.6, 26/12/2016
 
-echo "Version 1.5 26/10/2016"
+echo "Version 1.6 26/12/2016"
 echo "Welcome to the AR81 Test Program Software Updater"
 echo "During update you will be prompted many times"
 echo "This is to protect your data from accidental overwrite"
