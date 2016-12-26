@@ -1827,6 +1827,24 @@ E8F3AA67SUPERG - GALAXIAN.U
 84DECF98SUPERG - GALAXIAN.1H
 C31ADA9ESUPERG - GALAXIAN.1K
 F58283E3SUPERG - GALAXIAN.V
+1b933207galaxian - 7l
+745e2d61galaxian - galmidw.u
+9c999a40galaxian - galmidw.v
+b5894925galaxian - galmidw.w
+6b3ca10bgalaxian - galmidw.y
+39fb43a4galaxian - 1h.bin
+7e3f56a2galaxian - 1k.bin
+c3ac9467galaxian - 6l.bpr
+c31ada9egalaxianm - galaxian.l1
+cb24f797galaxianm - galmidw.z
+84decf98galaxianm - galaxian.j1
+fac42d34galaxianmo - galaxian.u
+f58283e3galaxianmo - galaxian.v
+4c7031c0galaxianmo - galaxian.w
+96a7ac94galaxianmo - galaxian.y
+5341d75agalaxianmo - 7l.bin
+84decf98galaxianmo - galaxian.j1
+c31ada9egalaxianmo - galaxian.l1
 62D6DE77gorf - GORF-B.BIN
 4E2BD9B9gorf - GORF-G.BIN
 1D3BC9C9gorf - GORF-C.BIN
@@ -1835,17 +1853,21 @@ FE7B863Dgorf - GORF-H.BIN
 F7E4E155gorf - GORF-F.BIN
 2D456EB5gorf - GORF-E.BIN
 5B348321gorf - GORF-A.BIN
-D7EEC6CDpengo - IC92
-94194A89pengo - IC20
 E73152B1pengo - Pengo_834-0386_256K.BIN
-ADF0EBA0pengo - IC15
-BAF48143pengo - IC7
-933950FEpengo - IC31
-B72084ECpengo - IC21
-F37066A8pengo - IC8
-A086D60Fpengo - IC14
-5BFD26E9pengo - IC105
-AF7B12C4pengo - IC32
+d7eec6cdPengo - ep1640.92
+f37066a8Pengo - ep1689c.8
+baf48143Pengo - ep1690b.7
+adf0eba0Pengo - ep1691b.15
+a086d60fPengo - ep1692b.14
+b72084ecPengo - ep1693b.21
+94194a89Pengo - ep1694b.20
+5bfd26e9Pengo - ep1695.105
+af7b12c4Pengo - ep5118b.32
+933950fePengo - ep5119c.31
+3a5844ecPengo - pr1633.78
+766b139bPengo - pr1634.88
+c29dea27Pengo - pr1635.51
+77245b66Pengo - pr1636.70
 1CF26E48SPLAT - SPLAT.01
 70A7064ESPLAT - SPLAT.04
 D1A1F632SPLAT - SPLAT.10
@@ -2187,3 +2209,25 @@ BED4A077PACMAN_BOOTLEG - 6N
 6FD574652114 RAM - FILLED WITH 00
 88308BEE2114 RAM - FILLED WITH FF
 6FAE91972114 RAM - FILLED WITH 04
+15bbc7d3penta - 007_pn05.bin
+22f328dfpenta - 008_pn01.bin
+160f3836penta - 014_pn06.bin
+de82b74apenta - 015_pn02.bin
+377b9663penta - 020_pn07.bin
+7824e3efpenta - 021_pn03.bin
+64e8c30dpenta - 031_pn08.bin
+bfde44c1penta - 032_pn04.bin
+6afeba9dpenta - 092_pn09.bin
+f01afb60pengo3u - ep5120.8
+2eb38353pengo3u - ep5121.7
+c33400d7pengo3u - ep5122.15
+6a85c6a2pengo3u - ep5123.14
+95f354ffpengo3u - ep5124.21
+1a42310fpengo3u - ep5125.20
+e5920728pengo3u - ep5126.32
+a7d3d1d6pengo3u - ep5127.31
+DCECD30AGALAXIAN SINGLE ROM - GALAX_7F.128
+DDB60D28SUPER GALAXIAN SINGLE ROM - SGALX_7F.128
+A18FA734DUAL GALAXIAN SINGLE ROM - GALAX_7F.256
+
+

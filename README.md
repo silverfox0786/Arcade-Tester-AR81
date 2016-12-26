@@ -32,6 +32,7 @@ When these 3 folder files are added correctly your tester should display the cur
 The Desktop Shortcut and Icon sould not change where the TEST folder will every time an update is available.
 	
 Current Pi Software Version is v1.41 24/12/2016
+
 Current AOS Software Version is v2.32 24/12/2016 (Available here http://www.arcadetester.co.uk/index.php/Firmware)
 
 TEST SOFTWARE NEW UPDATER HOW TO:
