@@ -1,6 +1,6 @@
 #!/bin/bash
 #AR81 Updater Program, Written by Silverfox0786
-#Version 1.6, 26/12/2016
+#Version 1.7, 03/01/2017
 
 echo "PREPAIRING UPDATE, PLEASE WAIT..."
 sleep 2
@@ -24,6 +24,7 @@ echo "PREPAIRING UPDATE, PLEASE WAIT..."
 sleep 2
 cp /tmp/Arcade-Tester-AR81-master/home/pi/Downloads/update.png /home/pi/Downloads/update.png
 cp /tmp/Arcade-Tester-AR81-master/home/pi/Desktop/UPDATE /home/pi/Desktop/UPDATE
+cp /tmp/Arcade-Tester-AR81-master/home/pi/update/piupdate.bash /home/pi/update/piupdate.bash
 cp /tmp/Arcade-Tester-AR81-master/home/pi/update/testupdate.bash /home/pi/update/testupdate.bash
 cp /tmp/Arcade-Tester-AR81-master/home/pi/Downloads/git.png /home/pi/Downloads/git.png
 cp /tmp/Arcade-Tester-AR81-master/home/pi/Desktop/GIT /home/pi/Desktop/GIT
