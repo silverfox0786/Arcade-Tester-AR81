@@ -1,6 +1,6 @@
 #!/bin/bash
 #AR81 Tester Update Program, Written by Silverfox0786
-#Version 1.7, 03/01/2017
+#Version 1.8, 16/01/2017
 
 echo "Version 1.7, 03/01/2017"
 echo "Welcome to the AR81 Test Program Software Updater"
@@ -191,20 +191,33 @@ clear
 			sleep 2;;
     esac
 fi
-read -n1 -r -p "Press space to continue..." key
-if [ "$key" = '' ]; then
 clear
-    read -p "Do you wish to Restart the Tester?" yn
-    case $yn in
-        [Yy]* ) sudo shutdown -r now;;
-        [Nn]* ) echo "Rememeber to Restart your Tester manually for changes to take effect"
-				echo "Updater Finished"
-				sleep 2
-				exit;;
-        * ) echo "Your Answer was assumed NO, Retart Cancelled"
-			echo "Rememeber to Restart your Tester manually for changes to take effect"
-			echo "Updater Finished"
-			sleep 2
-			exit;;
-    esac
-fi
+echo "Tester Software update complete"
+echo "Exiting in....."
+echo "5"
+sleep 1
+clear
+echo "Tester Software update complete"
+echo "Exiting in....."
+echo "4"
+sleep 1
+clear
+echo "Tester Software update complete"
+echo "Exiting in....."
+echo "3"
+sleep 1
+clear
+echo "Tester Software update complete"
+echo "Exiting in....."
+echo "2"
+sleep 1
+clear
+echo "Tester Software update complete"
+echo "Exiting in....."
+echo "1"
+sleep 1
+clear
+echo "NOW"
+sleep 1
+exit 0
+
