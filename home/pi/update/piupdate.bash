@@ -1,11 +1,11 @@
 #!/bin/bash
 #Raspberry Pi Update Program, Written by Silverfox0786
-#Version 1.8, 16/01/2017
+#Version 1.9, 17/01/2017
 
 sudo apt-get update
 clear
 
-echo "Version 1.8, 16/01/2017"
+echo "Version 1.9, 17/01/2017"
 echo "Welcome to the Raspberry Pi Software Updater"
 echo "This Section will Update your Rasperian Distribution Software not your Test Software"
 echo "During update you will be prompted a few times"
@@ -27,7 +27,7 @@ echo "MAKE SURE ALL UPDATES ARE VERIFIED AS WORKING BEFORE PROCEEDING"
 read -n1 -r -p "Press space to continue..." key
 if [ "$key" = '' ]; then
 clear
-echo "Version 1.8, 16/01/2017"
+echo "Version 1.9, 17/01/2017"
 echo "Welcome to the Raspberry Pi Software Updater"
 echo "This Section will Update your Rasperian Web Browser not your Test Software"
 echo "During update you will be prompted a few times"
@@ -53,7 +53,7 @@ fi
 read -n1 -r -p "Press space to continue..." key
 if [ "$key" = '' ]; then
 clear
-echo "Version 1.8, 16/01/2017"
+echo "Version 1.9, 17/01/2017"
 echo "Welcome to the Raspberry Pi Software Updater"
 echo "This Section will Install REALVNC not your Test Software"
 echo "During update you will be prompted a few times"
@@ -79,19 +79,19 @@ fi
 read -n1 -r -p "Press space to continue..." key
 if [ "$key" = '' ]; then
 clear
-echo "Version 1.8, 16/01/2017"
+echo "Version 1.9, 17/01/2017"
 echo "Welcome to the Raspberry Pi Software Updater"
-echo "This Section will Install Bless Hex Editor not your Test Software"
+echo "This Section will Install Tester Helper Software not your Test Software"
 echo "During update you will be prompted a few times"
 echo "This is to protect you from accidental overwrite"
 echo "Make sure terminal window is maximised so you can see all the commands"
 echo "NOTE: ANY UNVERIFIED UPDATES IN THIS SECTION CAN BREAK YOUR TESTER"
 echo "MAKE SURE ALL UPDATES ARE VERIFIED AS WORKING BEFORE PROCEEDING"
-	read -p "Do you wish to install Bless?" yn
+	read -p "Do you wish to install Tester Helper Software?" yn
     case $yn in
-        [Yy]* ) echo "Installing Bless"
+        [Yy]* ) echo "Installing Tester Helper Software"
 				sleep 2
-				sudo apt-get install bless;;
+				sudo apt-get install bless libarchive-zip-perl -y;;
         [Nn]* ) echo "Not installing anything"
 				sleep 2;;
         * ) echo "Your Answer was assumed NO"

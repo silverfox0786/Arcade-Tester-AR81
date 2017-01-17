@@ -1,8 +1,8 @@
 #!/bin/bash
 #AR81 Tester Update Program, Written by Silverfox0786
-#Version 1.8, 16/01/2017
+#Version 1.9, 17/01/2017
 
-echo "Version 1.7, 03/01/2017"
+echo "Version 1.9, 17/01/2017"
 echo "Welcome to the AR81 Test Program Software Updater"
 echo "During update you will be prompted many times"
 echo "This is to protect your data from accidental overwrite"
@@ -149,9 +149,10 @@ clear
 				echo "Installing New Test Software"
 				sleep 2
 				cp -R /tmp/Arcade-Tester-AR81-master/home/pi/Test -P /home/pi/Test
-				if [ ! -f  /home/pi/Downloads/testicon.gif ]
+				cp -i /tmp/Arcade-Tester-AR81-master/home/pi/AR81_Test.cfg /home/pi
 				echo "Test Program Sucessfully Installed"
 				sleep 2
+				if [ ! -f  /home/pi/Downloads/testicon.gif ]
 				then
 				echo "Adding New Icon File"
 				sleep 2

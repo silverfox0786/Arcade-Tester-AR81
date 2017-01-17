@@ -1,6 +1,6 @@
 #!/bin/bash
 #AR81 Updater Program, Written by Silverfox0786
-#Version 1.8, 16/01/2017
+#Version 1.9, 17/01/2017
 
 echo "PREPAIRING UPDATE, PLEASE WAIT..."
 sleep 2
