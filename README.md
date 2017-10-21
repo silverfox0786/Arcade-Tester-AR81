@@ -13,10 +13,10 @@ The test files and user data are stored within folders located on the Desktop. B
     /home/pi/Desktop/Devices - All data for the ADT is stored here
     /home/pi/Desktop/ROMS - ID.crc file, all .BIN files and .TXT files
     /home/pi/Desktop/Test Progs - All Test Sequences Generated
-	/home/pi/Desktop/Screenshots - All Screenshots of Tester go here as PS (PostScript) format
+    /home/pi/Desktop/Screenshots - All Screenshots of Tester go here as PS (PostScript) format
 	
 
-Resource Files Last Updated: 26/12/2016
+Resource Files Last Updated: 22/10/2017
 
 The Main Pi Tester Software is also included in this Git. 
 
@@ -27,13 +27,14 @@ The Layout of this software is as follows
     /home/pi/Test - Main Pi Tester software files
     /home/pi/Desktop - Test.desktop - Shortcut file
     /home/pi/Downloads - testicon.gif - Icon for desktop shortcut file
+    /home/pi/AR81_Test.cfg - Tester startup config file. (Important)
 	
 When these 3 folder files are added correctly your tester should display the current AOS version upon startup. 
 The Desktop Shortcut and Icon sould not change where the TEST folder will every time an update is available.
 	
-Current Pi Software Version is v1.41 24/12/2016
+Current Pi Software Version is v1.80(beta) 22/10/2017
 
-Current AOS Software Version is v2.32 24/12/2016 (Available here http://www.arcadetester.co.uk/index.php/Firmware)
+Current AOS Software Version is v2.34 24/06/2017 (Mark1 Testers) and v1.03 (Mark2 Testers)  (Available here http://www.arcadetester.co.uk/index.php/Firmware)
 
 TEST SOFTWARE NEW UPDATER HOW TO:
 
@@ -54,4 +55,4 @@ This will do 2 things.
 
 Enjoy your Tester guys, and i hope it helps you repair many equiptment. 
 
-Last Update on 26/12/2016
+Last Update on 22/10/2017
